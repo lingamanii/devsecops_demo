@@ -1,0 +1,11 @@
+name: devsecops-pipeline
+on: 
+  push:
+    branches:
+      - 'main'
+jobs:
+  devsecops-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      name: Test
+      uses: echo "hello world"
