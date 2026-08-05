@@ -7,5 +7,5 @@ jobs:
   devsecops-pipeline:
     runs-on: ubuntu-latest
     steps:
-      name: Test
-      uses: echo "hello world"
+      - name: Test
+        run: echo "hello world"
